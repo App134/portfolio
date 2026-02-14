@@ -13,10 +13,13 @@ const About = () => {
                 <GlassCard className="max-w-5xl mx-auto">
                     <div className="flex flex-col md:flex-row items-center gap-12">
                         <div className="md:w-1/3 w-full flex justify-center">
-                            <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white/10 relative shadow-2xl">
-                                <div className="w-full h-full bg-gradient-to-br from-blue-900 to-purple-900 flex items-center justify-center text-6xl font-bold text-white/50">
-                                    SP
-                                </div>
+                            <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white/10 relative shadow-2xl group">
+                                <img
+                                    src="/src/assets/profile.jpg"
+                                    alt="Sivapriyan.S"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-blue-500/20 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                             </div>
                         </div>
 

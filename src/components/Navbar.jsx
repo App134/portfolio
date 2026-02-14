@@ -34,7 +34,6 @@ const Navbar = () => {
                             Sivapriyan.S
                         </span>
                     </div>
-
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
                             {navLinks.map((link) => (
