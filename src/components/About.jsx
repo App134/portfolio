@@ -1,5 +1,6 @@
 import React from 'react';
 import GlassCard from './GlassCard';
+import profileImg from '../assets/profile.jpg';
 
 const About = () => {
     return (
@@ -15,7 +16,7 @@ const About = () => {
                         <div className="md:w-1/3 w-full flex justify-center">
                             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white/10 relative shadow-2xl group">
                                 <img
-                                    src="/src/assets/profile.jpg"
+                                    src={profileImg}
                                     alt="Sivapriyan.S"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                 />
