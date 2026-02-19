@@ -1,8 +1,16 @@
 import React from 'react';
 import GlassCard from './GlassCard';
-import { ExternalLink, Github, Cloud, DollarSign } from 'lucide-react';
+import { ExternalLink, Github, Cloud, DollarSign, Utensils } from 'lucide-react';
 
 const projects = [
+    {
+        title: '3D Cooking Simulator Game',
+        description: 'Developed a fully functional 3D cooking game using Unity and C#. Implemented player movement, order system, NPC customers, UI system, background music, and sound effects. Built and published the game for PC/Web using Unity build tools.',
+        tech: ['Unity', 'C#', 'WebGL'],
+        icon: <Utensils size={40} className="text-orange-400" />,
+        link: '#',
+        github: '#'
+    },
     {
         title: 'Weather API Web Application',
         description: 'Built a responsive weather app using real-time API data. Displays temperature, humidity, wind speed, and conditions. Supports location-based and city search functionality.',
