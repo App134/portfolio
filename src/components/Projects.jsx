@@ -8,24 +8,24 @@ const projects = [
         description: 'Developed a fully functional 3D cooking game using Unity and C#. Implemented player movement, order system, NPC customers, UI system, background music, and sound effects. Built and published the game for PC/Web using Unity build tools.',
         tech: ['Unity', 'C#', 'WebGL'],
         icon: <Utensils size={40} className="text-orange-400" />,
-        link: '#',
-        github: '#'
+        link: 'https://my-game-ruby-six.vercel.app',
+        github: 'https://github.com/App134'
     },
     {
         title: 'Weather API Web Application',
         description: 'Built a responsive weather app using real-time API data. Displays temperature, humidity, wind speed, and conditions. Supports location-based and city search functionality.',
         tech: ['React', 'OpenWeatherMap API', 'CSS'],
         icon: <Cloud size={40} className="text-blue-400" />,
-        link: '#',
-        github: '#'
+        link: 'https://praveenleo08.github.io/weather-project/',
+        github: 'https://github.com/App134'
     },
     {
         title: 'Finance Dashboard',
         description: 'Developed an interactive dashboard for income and expense tracking. Visualized financial data using charts and summary cards. Designed with a clean and user-friendly interface.',
         tech: ['React', 'Chart.js', 'Firebase'],
         icon: <DollarSign size={40} className="text-green-400" />,
-        link: '#',
-        github: '#'
+        link: 'https://financeflow-rosy.vercel.app',
+        github: 'https://github.com/App134'
     }
 ];
 
